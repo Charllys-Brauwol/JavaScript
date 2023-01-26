@@ -10,7 +10,7 @@ document.write("<img src='https://sujeitoprogramador.com/steve.png' alt='Foto do
 */
 
 
-var area = document.getElementById('area')
+/*var area = document.getElementById('area')
 
 function entrar() {
     var nome = prompt("Digite seu nome:");
@@ -47,4 +47,44 @@ function mediaAluno(nota1, nota2){
 function aluno(nome, curso){
     var mensagem = "Seja bem vindo " + nome + " ao curso " + curso;
     console.log(mensagem);
+}*/
+
+//while = enquanto
+
+/*var x = 0;
+
+while(x < 10){
+    document.write("<br> O valor de x é: " + x);
+    x++;
+}*/
+
+//FOR = PARA
+
+/*for (a = 0; a < 5; a++){
+    document.write("<br> O valor de A é: " + a);
+}*/
+
+
+//switch
+
+function pedir() {
+    var valor = prompt("Digite um valor de 1 a 4:");
+
+    switch (Number(valor)) {
+        case 1:
+            alert("Você escolheu suco");
+            break;
+        case 2:
+            alert("Você escolheu sorvete");
+            break;
+        case 3:
+            alert("Você escolheu agua");
+            break;
+        case 4:
+            alert("Chamou o garçom");
+            break;
+        default:
+            alert("Escolha de 1 a 4");
+            break;
+    }
 }
