@@ -40,10 +40,10 @@ let usuarios = [
 console.log(usuarios);*/
 
 //Template Strings
-
+/*
 let nome = "Charllys";
 let sobrenome = "Brauwol";
 
 let mensagem = `Meu nome é ${nome} ${sobrenome}`;
 
-console.log(mensagem);
+console.log(mensagem);*/
