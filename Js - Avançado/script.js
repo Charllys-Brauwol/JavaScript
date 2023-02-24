@@ -105,7 +105,9 @@ function deletarTarefa(posisao){
 
 function salvarDados(){
     localStorage.setItem("@listaTarefas", JSON.stringify(tarefas))
-}*/
+}
+
+//Desconstruindo Objetos e Arrays
 
 let pessoa = {
     nome: "Charllys",
@@ -120,3 +122,31 @@ let nomes = ["Charllys", "Pedro", "Lucas"];
 
 let {1:charllys, 2:pedro} = nomes;
 let[primeironome, segundonome] = nomes;
+
+//Spread operator
+
+let primeiros = [1, 2, 3];
+let numeros = [...primeiros, 4, 5, 6];
+
+
+let pessoa = {
+    nome: "Charllys",
+    idade: 30, 
+    cargo: "Tecnico"
+};
+
+let novaPessoa = {
+    ...pessoa,
+    status: "Ativo",
+    cidade: "Mombaça"
+};
+
+function novoUsuario(info){
+    let date = {
+        ...info, 
+        status: "ativo"
+    };
+    console.log(date);
+}
+
+novoUsuario({nome: "Jose", sobrenome: "Silva"})*/
