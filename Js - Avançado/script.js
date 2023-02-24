@@ -46,7 +46,7 @@ let sobrenome = "Brauwol";
 
 let mensagem = `Meu nome é ${nome} ${sobrenome}`;
 
-console.log(mensagem);*/
+console.log(mensagem);
 
 let listElement = document.querySelector("#app ul");
 let inputElement = document.querySelector("#app input");
@@ -105,4 +105,18 @@ function deletarTarefa(posisao){
 
 function salvarDados(){
     localStorage.setItem("@listaTarefas", JSON.stringify(tarefas))
-}
+}*/
+
+let pessoa = {
+    nome: "Charllys",
+    sobrenome: "Brauwol",
+    empresa: "ProveNET", 
+    cargo: "Fusionista"
+};
+
+const {nome, cargo} = pessoa;
+
+let nomes = ["Charllys", "Pedro", "Lucas"];
+
+let {1:charllys, 2:pedro} = nomes;
+let[primeironome, segundonome] = nomes;
